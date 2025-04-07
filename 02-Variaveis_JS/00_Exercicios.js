@@ -1,6 +1,5 @@
-/* 
-// [Exercicio - 01]
 
+// [Exercicio - 01]
 let nomeOne = 'Américo';
 let idade = 25;
 let altura = 1.82;
@@ -8,7 +7,6 @@ let altura = 1.82;
 console.log(`Nome: ${nomeOne}, idade: ${idade}, altura ${altura}`);
 
 //[Exercicios - 02]
-
 let nome = 'Américo';
 let sobreNome = 'Godoy da Silva';
 
@@ -22,7 +20,6 @@ console.log(`Usando template strings: ${nomeCompletoTemplate}`);
 
 
 //[Exercicios - 03]
-
 let age = 25;
 let greetings = "Hi! Im Américo";
 
@@ -30,7 +27,6 @@ console.log(`${greetings} and Im ${age} years old!`);
 
 
 //[Exercicio - 04]
-
 let horas = "15:51";
 console.log(horas);
 
@@ -39,7 +35,6 @@ console.log(horas);
 
 
 //[Exercício - 05]
-
 var fora = 'Fora do bloco';
 
 if (true) {
@@ -66,7 +61,6 @@ console.log(dentro); // erro: 'dentro is not defined'
 
 
 //[Exercício - 06]
-
 let raining = true;
 
 if (!raining) {
