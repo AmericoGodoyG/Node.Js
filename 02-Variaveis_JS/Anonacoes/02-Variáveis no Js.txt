@@ -1,0 +1,18 @@
+Declarações de variáveis em JS
+- ver 
+- let: poder ser criada sem atribuição de valor
+- const
+- js é case sensitive
+
+Escopo de variáveis em JS
+[Escopo Global]
+- Variáveis declaradas fora de qualquer função ou bloco pertencem ao escopo global
+- Podem ser acessadas de qualquer parte do código
+
+[Escopo de função]
+- variáveis declaradas com var dentro de uma função ficam limitadas a essa função
+- Não podem ser acessadas fora dela
+
+[Escopo de bloco]
+- Com let e const, variáveis ficam restritas ao bloco {} onde fora declaradas
+- var não respeita escopo de bloco

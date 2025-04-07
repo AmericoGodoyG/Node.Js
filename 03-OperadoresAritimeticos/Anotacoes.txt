@@ -1,0 +1,94 @@
+=====================================
+Operadores Aritméticos em JavaScript
+=====================================
+Operador    Descrição
++           Adição
+-           Subtração
+*           Multiplicação
+/           Divisão
+**          Exponencial
+%           Módulo (resto da divisão)
+++          Incrementar
+--          Decrementar
+
+=====================================
+Operador Lógicos em JavaScript
+=====================================
+
+Operador    Descrição
+==          Igual a
+===         Mesmo valor e tipo
+!=          Diferente em valor e tipo
+!==         Não identico
+<           Menor que 
+>           Maior que
+<=          Menor ou igual a
+>=          Maior ou igual a
+&&          E 
+||          Ou 
+!           Negação
+
+=====================================
+|                                   |    
+|    * * * TABELAS VERDADE * * *    |    
+|                                   |    
+=====================================
+|                AND                |
+=====================================
+|    A   B       |    A && B        |
+|    V   V       |       V          |
+|    V   F       |       F          |
+|    F   V       |       F          |
+|    F   F       |       F          |
+=====================================
+|                OR                 |
+=====================================
+|    A   B       |    A || B        |
+|    V   V       |       V          |
+|    V   F       |       V          |
+|    F   V       |       V          |
+|    F   F       |       F          |
+=====================================
+|              NOT                  |
+=====================================
+|            A NOT B                |
+|            V     F                |
+|            F     V                |
+=====================================
+
+
+====================================
+|        Truthy e falsy            |
+====================================
+* * * Truthy e falsy  * * * 
+Truthy e falsy em Js são termos usados para 
+descrever como valores são avaliados em contextos
+bolenos, como em condicionais (if, while, etc);
+
+Falsy (falso)
+- São valores que, quando convertidos para booleano,
+  resultam em false. 
+
+- Existem apenas seis valores falsy:
+  - false
+  - 0 (zero)
+  - -0 (zero negativo)
+  - ""(string vazia)
+  - null
+  - undefined
+  - NaN
+
+if (0){
+    console.log("Isso não será executado"); // Falsy
+}
+
+Truthy (Verdadeiro)
+- São todos os valores que não estão na lista acima.
+
+- Qualquer número diferente de 0 (incluindo negativos)
+- Arrays ([]) e objetos({})
+- O próprio true
+
+if ("hello") {
+    console.log("Isso será executado"); // "hello" é truthy
+}

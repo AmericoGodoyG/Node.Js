@@ -1,0 +1,33 @@
+Null e Undefined
+- São tipos de dados primitivos
+- São atribuidos às variáveis por valor.
+
+Tipos de dados primitivos
+- String
+- Number
+- Boolean
+- Null
+- Undefined
+- Symbol
+
+* * * Diferença entre eles  * * * 
+
+NULL
+- null é um valor de atribuição. Pode ser atribuido a uma varável 
+  como uma representação de nenhum valor, ou seja, está definida 
+  explicitamente com um valor vazio.
+
+   ////// const usuario = null; ////// null
+
+- A variável usuario é conhecida e existe, mas não aponta para 
+  nenhum tipo ou valor.
+
+UNDEFINED
+- Undefined vai aparecer quando iniciarmos uma variável e não indicarmos
+  um valor para ela.
+
+  ////// const usuario; ////// 
+  ////// console.log(usuario); ///// undefined
+
+- Vai retornar um valor no console o valor undefined, pois declaramos
+  a variável e não setamos o valor.

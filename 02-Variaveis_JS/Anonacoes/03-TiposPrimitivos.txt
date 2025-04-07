@@ -1,0 +1,27 @@
+Tipo primitivos em JavaScript
+
+- String: Cadeia de caracteres
+  let nome = 'João';
+
+- Number: Números inteiros e decimais
+  let idade = 25;
+  let altura = 1.75;
+
+- Boolean: Valores lógicos (verdadeiro ou falso)
+  let ativo = true;
+  let inativo = false;
+
+- Undefined: Valor padrão de variáveis não inicializadas
+  let valor;
+  console.log(valor); // Undefined
+
+- Null: Ausência intencional de um valor
+  let vazio = null;
+
+- BigInt: Números inteiros muito grandes
+  let numeroGrande = 9007199254740991n;
+
+- Symbol: Respresenta valores únicos e imutáveis 
+  let id = Symbol('id');
+
+OBS: Os tipos primitivos, com exceção de null e undefined, têm métodos e propriedades porque JavaScript os trata como objetos temporariamente quando necessário.

@@ -1,0 +1,23 @@
+Características do JS
+
+Origem e propósito:  JavaScript foi criado nos anos 1990 para interatividade em páginas web; Node.js (2009) permitiu seu uso em back-end
+
+Multiparadigma: Suporta diferentes paradigmas de programação (orientado a objetos, funcional, procedural)
+
+Interpretação: É uma linguagem interpretada, executando o código linha por linha em tempo real.
+
+Comparação com Java:
+JavaScript: fracamente tipada, tipagem dinâmica, mais flexível e ágil.
+Java: fortemente tipada, tipagem estática, requer declaração explícita de tipos.
+Ecossistema: Possui uma vasta comunidade e um rico conjunto de ferramentas e bibliotecas, facilitando o desenvolvimento.
+
+Facilidade de Transição: Profissionais com experiência em JavaScript no front-end podem migrar facilmente para o back-end.
+
+Node.JS
+- Motor de interpretação fora do navegador
+- Node.Js e o Crome tem o mesmo motor de interpretação (V8)
+- Executa o código Js no "lado do servidor"
+- Suporte para bibliotecas e frameworks variados
+- Uso do NPM para gerenciamento de pacotes
+- Arquitetura baseada em eventos assíncronos
+- Popular para a construção de servidores web e APIs
