@@ -1,5 +1,5 @@
 
-[Exercicio 01]
+//[Exercicio 01]
 let saldo = 1000;
 
 exibirSaldo(saldo);
@@ -26,13 +26,13 @@ function sacarDinheiro(valorSaque) {
     }
 }
 
-[Exercicio 02]
+//[Exercicio 02]
 let valor = 10;
 const tipo = valor % 2 === 0 ? 'par' : 'impar';
 console.log(tipo);
 
 
-[Exercicio 03]
+//[Exercicio 03]
 const user = {
     logado: false,
     permissionAdm: true,
@@ -41,14 +41,14 @@ const user = {
 const msg = user.logado === true || user.permissionAdm === true ? 'online' : 'offline';
 console.log(msg);
 
-[Exercicio 04]
+//[Exercicio 04]
 let a = false;
 let b = false;
 
 const msgBoolean = a === true || b === true ? 'Pelo menos uma é true':'Ambas são falsas';
 console.log(msgBoolean);
 
-[Exercicio 05]
+//[Exercicio 05]
 let userAge = 17;
 let minAge = 18;
 
